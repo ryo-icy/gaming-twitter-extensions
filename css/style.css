@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+span {
+    color: #000000;
+    /* 横長で虹色を作る */
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: gaming 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span {
+    color: #000000;
+}
+@keyframes gaming {
+    /* backgroundを移動させる */
+    100% { background-position-x: 200%; }
+}

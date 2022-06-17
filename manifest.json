@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Gaming Twitter",
+    "version": "1.0",
+    "description": "The Gaming",
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "css": ["css/style.css"]
+        }
+    ]
+}
